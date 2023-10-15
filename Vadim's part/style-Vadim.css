@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #242424;
+    font-family: "Krub";
+    max-width: 1440px;
+    color: white;
+}
+
+.findText{
+    margin: 0 0 0 49px;
+    font-size: 117px;
+    font-weight: 700;
+    font-family: "Krub";
+    letter-spacing: 2px;
+}
+.courseText{
+    padding: 80px 0 0 13px;
+    font-size: 38px;
+    letter-spacing: 4px;
+}
+
+/*.editionFull{
+    text-align: right;
+}*/
+
+.whitesquare{
+    background-color: white;
+    height: 12px;
+    width: 12px;
+    
+    margin: 85px 0 0 770px;
+    padding: 0 0 0 0;
+}
+  
+.editionText{
+
+    margin: 81px 0 0 20px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Krub";
+    letter-spacing: 3.5px;
+}
+ 
+.yearText{
+    margin: 101px 450px 0 0;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Krub";
+    letter-spacing: 5.5px;  
+}
+
+.readmoreBtn{
+    background-color: purple;
+    color:white;
+    height: 50px;
+    width: 128px;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 357px 0 0 826px;
+    padding: 0 0 0 0;  
+}
+
+
+  
