@@ -1,67 +1,119 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-body {
-    background-color: #242424;
+    width: 1440px;
+  }
+  
+  body {
     font-family: "Krub";
-    max-width: 1440px;
+    width: 1440px;
     color: white;
-}
-
-.findText{
-    margin: 0 0 0 49px;
+  }
+  
+  .mainPart {
+    background: black;
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .findText {
+    margin: 0 0 0 50px;
     font-size: 117px;
     font-weight: 700;
-    font-family: "Krub";
     letter-spacing: 2px;
-}
-.courseText{
-    padding: 80px 0 0 13px;
+    padding: 0;
+  }
+  
+  .courseText {
     font-size: 38px;
     letter-spacing: 4px;
-}
-
-/*.editionFull{
-    text-align: right;
-}*/
-
-.whitesquare{
-    background-color: white;
+    margin: 80px 0 0 11px;
+  }
+  
+  .editionFull {
+    padding: 80px 10px 0 10px;
+    width: 165px;
+  }
+  
+  .whitesquare {
+    /*background-color: black;*/
+    color: white;
     height: 12px;
     width: 12px;
-    
-    margin: 85px 0 0 770px;
-    padding: 0 0 0 0;
-}
+    margin: 0 0 0 2px;
+    /*padding: 6px 6px 6px 6px;*/
+  }
   
-.editionText{
-
-    margin: 81px 0 0 20px;
+  .editionText {
+    margin: 21px 0 0 15px;
     font-size: 17px;
     font-weight: 700;
     font-family: "Krub";
     letter-spacing: 3.5px;
-}
- 
-.yearText{
-    margin: 101px 450px 0 0;
-    font-size: 30px;
+    padding: 0;
+  }
+  
+  .yearText {
+    font-size: 28px;
     font-weight: 700;
-    font-family: "Krub";
-    letter-spacing: 5.5px;  
-}
+    padding: 0 0 0 33px;
+    letter-spacing: 7px;
+    margin: 20px 0 0 0;
+  }
 
-.readmoreBtn{
-    background-color: purple;
+.readmoreBtn1{
+    background-color: #aa84f9;
     color:white;
     height: 50px;
     width: 128px;
     font-family: 'Oswald';
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 1px;
-    margin: 357px 0 0 826px;
+    font-weight: 470;
+    font-size: 14.5px;
+    letter-spacing: 1.2px;
+    margin: 50px 0 0 826px;
+    padding: 0 0 0 0;  
+}
+
+.readmoreBtn2{
+    background-color: #aa84f9;
+    color:white;
+    height: 50px;
+    width: 128px;
+    font-family: 'Oswald';
+    font-weight: 470;
+    font-size: 14.5px;
+    letter-spacing: 1.2px;
+    margin: 100px 0 0 826px;
+    padding: 0 0 0 0;  
+}
+
+
+.readmoreBtn3{
+    background-color: #aa84f9;
+    color:white;
+    height: 50px;
+    width: 128px;
+    font-family: 'Oswald';
+    font-weight: 470;
+    font-size: 14.5px;
+    letter-spacing: 1.2px;
+    margin: 150px 0 0 826px;
+    padding: 0 0 0 0;  
+}
+
+.readmoreBtn4{
+    background-color: #aa84f9;
+    color:white;
+    height: 50px;
+    width: 128px;
+    font-family: 'Oswald';
+    font-weight: 470;
+    font-size: 14.5px;
+    letter-spacing: 1.2px;
+    margin: 200px 0 0 826px;
     padding: 0 0 0 0;  
 }
 
