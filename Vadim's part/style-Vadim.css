@@ -7,11 +7,11 @@
   body {
     font-family: "Krub";
     width: 1440px;
+    background-color: #111111;
     color: white;
   }
   
   .mainPart {
-    background: black;
     width: 1440px;
     margin: 0;
     padding: 0;
@@ -64,7 +64,81 @@
     margin: 20px 0 0 0;
   }
 
-.readmoreBtn1{
+  .emptyblock{
+    width: 1440px;
+    height: 94px;
+    /*background-color: aqua;*/
+  }
+
+  .courses { 
+    width: 1385px;
+    color: white;
+    height: 377px;
+    display: flex;
+    margin: 0 0 0 55px;
+  }
+
+
+  .course{
+    /*max-width: 292px;*/
+    width: 286px; 
+    height: 370px; 
+    border: 3px solid white;
+  }
+
+  .description{
+    /*background-color: #aa84f9;*/
+    margin: 17px 0 0 40px;
+    width: 208px;
+    font-weight: 600;
+    font-size: 14.5px;
+    letter-spacing: 0.4px;
+    word-wrap: break-word;
+    hyphens: auto;
+    line-height: 1.8;
+    text-align: justify;
+    text-align-last: center;
+  }
+
+  .square{
+    display: flex;
+    background-color: white; 
+    height: 43px; 
+    width: 43px;
+    color: black;    
+  }
+
+  .numeration{
+    margin: 7px 0 0 3px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .nameCourse{
+    margin: 31px 0 0 50px;
+    font-weight: 650;
+    font-size: 33.5px;
+    letter-spacing: 1.5px;
+  }
+
+  .num{
+    color: #aa84f9;
+  }
+
+  .Line{
+    /*margin-left: auto;
+    margin-right: auto;*/
+    align-items:center;
+    justify-content: center;
+    margin-top: 15px;
+    transform: translateX(213.8%);
+    max-width: 286px;
+    border-bottom: 2px solid #aa84f9;
+    width: 54px;
+    /*margin:auto;*/
+    /*z-index: 100;*/
+  }
+  .readmoreBtn{
     background-color: #aa84f9;
     color:white;
     height: 50px;
@@ -73,49 +147,18 @@
     font-weight: 470;
     font-size: 14.5px;
     letter-spacing: 1.2px;
-    margin: 50px 0 0 826px;
-    padding: 0 0 0 0;  
+    margin: 31px 0 0 78px; 
 }
 
-.readmoreBtn2{
-    background-color: #aa84f9;
-    color:white;
-    height: 50px;
-    width: 128px;
-    font-family: 'Oswald';
-    font-weight: 470;
-    font-size: 14.5px;
-    letter-spacing: 1.2px;
-    margin: 100px 0 0 826px;
-    padding: 0 0 0 0;  
+.morecoursesBlock{
+  margin: 72px 0 0 5px;
+  width: 87%;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.5px;
 }
 
 
-.readmoreBtn3{
-    background-color: #aa84f9;
-    color:white;
-    height: 50px;
-    width: 128px;
-    font-family: 'Oswald';
-    font-weight: 470;
-    font-size: 14.5px;
-    letter-spacing: 1.2px;
-    margin: 150px 0 0 826px;
-    padding: 0 0 0 0;  
-}
-
-.readmoreBtn4{
-    background-color: #aa84f9;
-    color:white;
-    height: 50px;
-    width: 128px;
-    font-family: 'Oswald';
-    font-weight: 470;
-    font-size: 14.5px;
-    letter-spacing: 1.2px;
-    margin: 200px 0 0 826px;
-    padding: 0 0 0 0;  
-}
 
 
   
