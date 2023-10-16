@@ -1,69 +1,164 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-body {
-    background-color: #242424;
+    width: 1440px;
+  }
+  
+  body {
     font-family: "Krub";
-    max-width: 1440px;
+    width: 1440px;
+    background-color: #111111;
     color: white;
-}
-
-.findText{
-    margin: 0 0 0 49px;
+  }
+  
+  .mainPart {
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .findText {
+    margin: 0 0 0 50px;
     font-size: 117px;
     font-weight: 700;
-    font-family: "Krub";
     letter-spacing: 2px;
-}
-.courseText{
-    padding: 80px 0 0 13px;
+    padding: 0;
+  }
+  
+  .courseText {
     font-size: 38px;
     letter-spacing: 4px;
-}
-
-/*.editionFull{
-    text-align: right;
-}*/
-
-.whitesquare{
-    background-color: white;
+    margin: 80px 0 0 11px;
+  }
+  
+  .editionFull {
+    padding: 80px 10px 0 10px;
+    width: 165px;
+  }
+  
+  .whitesquare {
+    /*background-color: black;*/
+    color: white;
     height: 12px;
     width: 12px;
-    
-    margin: 85px 0 0 770px;
-    padding: 0 0 0 0;
-}
+    margin: 0 0 0 2px;
+    /*padding: 6px 6px 6px 6px;*/
+  }
   
-.editionText{
-
-    margin: 81px 0 0 20px;
+  .editionText {
+    margin: 21px 0 0 15px;
     font-size: 17px;
     font-weight: 700;
     font-family: "Krub";
     letter-spacing: 3.5px;
-}
- 
-.yearText{
-    margin: 101px 450px 0 0;
-    font-size: 30px;
+    padding: 0;
+  }
+  
+  .yearText {
+    font-size: 28px;
     font-weight: 700;
-    font-family: "Krub";
-    letter-spacing: 5.5px;  
-}
+    padding: 0 0 0 33px;
+    letter-spacing: 7px;
+    margin: 20px 0 0 0;
+  }
 
-.readmoreBtn{
-    background-color: purple;
+  .emptyblock{
+    width: 1440px;
+    height: 94px;
+    /*background-color: aqua;*/
+  }
+
+  .courses { 
+    width: 1385px;
+    color: white;
+    height: 377px;
+    display: flex;
+    margin: 0 0 0 55px;
+  }
+
+
+  .course{
+    /*max-width: 292px;*/
+    width: 286px; 
+    height: 370px; 
+    border: 3px solid white;
+  }
+
+  .description{
+    /*background-color: #aa84f9;*/
+    margin: 17px 0 0 40px;
+    width: 208px;
+    font-weight: 600;
+    font-size: 14.5px;
+    letter-spacing: 0.4px;
+    word-wrap: break-word;
+    hyphens: auto;
+    line-height: 1.8;
+    text-align: justify;
+    text-align-last: center;
+  }
+
+  .square{
+    display: flex;
+    background-color: white; 
+    height: 43px; 
+    width: 43px;
+    color: black;    
+  }
+
+  .numeration{
+    margin: 7px 0 0 3px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .nameCourse{
+    margin: 31px 0 0 50px;
+    font-weight: 650;
+    font-size: 33.5px;
+    letter-spacing: 1.5px;
+  }
+
+  .num{
+    color: #aa84f9;
+  }
+
+  .Line{
+    /*margin-left: auto;
+    margin-right: auto;*/
+    align-items:center;
+    justify-content: center;
+    margin-top: 15px;
+    transform: translateX(213.8%);
+    max-width: 286px;
+    border-bottom: 2px solid #aa84f9;
+    width: 54px;
+    /*margin:auto;*/
+    /*z-index: 100;*/
+  }
+  .readmoreBtn{
+    background-color: #aa84f9;
     color:white;
     height: 50px;
     width: 128px;
     font-family: 'Oswald';
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 1px;
-    margin: 357px 0 0 826px;
-    padding: 0 0 0 0;  
+    font-weight: 470;
+    font-size: 14.5px;
+    letter-spacing: 1.2px;
+    margin: 31px 0 0 78px; 
 }
+
+.morecoursesBlock{
+  margin: 72px 0 0 5px;
+  width: 87%;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+
 
 
   
