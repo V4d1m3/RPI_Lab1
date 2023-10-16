@@ -73,7 +73,7 @@
   .courses { 
     width: 1385px;
     color: white;
-    height: 377px;
+    height: 365px;
     display: flex;
     margin: 0 0 0 55px;
   }
@@ -151,11 +151,27 @@
 }
 
 .morecoursesBlock{
-  margin: 72px 0 0 5px;
-  width: 87%;
-  font-weight: 700;
+  height: 55px;
+  width: 1000px;
+  /*padding: 0 0 0 0;*/
+  margin: 70px 2px 0 0; 
+  width: 100%;
   text-align: center;
+
+}
+
+.morecoursesText{
+  font-weight: 700;
   letter-spacing: 0.5px;
+  padding-right: 70px;
+  margin: 14px 29px 0 0;
+}
+
+.arrowright{
+  margin: 7px 0 0 0;
+  width: 90px;
+  height: 30px;
+  transform: translateX(-773.8%);
 }
 
 
