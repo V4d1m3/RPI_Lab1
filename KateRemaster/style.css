@@ -1,0 +1,34 @@
+body{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  width: 1440px;
+  background-color: #111111;
+  color: white;
+  font-family: 'Krub';
+}
+
+
+
+.SignInBtn:hover{
+  background-color: #aa84f9;
+}
+
+.KatesProDesignerLets{
+  width: 128px; 
+  height: 48px; 
+  background-color:#aa84f9; 
+  margin: 36px 0 0 51px; 
+  color: white; 
+  font-family: 'Oswald'; 
+  font-size: 15px; 
+  letter-spacing: 1.3px; 
+  cursor: pointer;
+}
+
+.KatesProDesignerLets:hover{
+  background: #111111;
+}
+
+
+
+/* style="width: 50px; height: 350px; background-color: azure; margin: 0 0 0 50px; */
